@@ -9,4 +9,5 @@ def catch
 	end
 end
 test=Test.new
-test.find()
+test.find
+test.catch
