@@ -1,0 +1,33 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ActiveSupport	test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:Demo
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+BrowsingTest	test/performance/browsing_test.rb	/^class BrowsingTest < ActionDispatch::PerformanceTest$/;"	c
+Demo	config/application.rb	/^module Demo$/;"	m
+DeviseCreateUsers	db/migrate/20130402004344_devise_create_users.rb	/^class DeviseCreateUsers < ActiveRecord::Migration$/;"	c
+SayController	app/controllers/say_controller.rb	/^class SayController < ApplicationController$/;"	c
+SayControllerTest	test/functional/say_controller_test.rb	/^class SayControllerTest < ActionController::TestCase$/;"	c
+SayHelper	app/helpers/say_helper.rb	/^module SayHelper$/;"	m
+SayHelperTest	test/unit/helpers/say_helper_test.rb	/^class SayHelperTest < ActionView::TestCase$/;"	c
+Test	app/views/today/test.rb	/^class	Test$/;"	c
+TodayController	app/controllers/today_controller.rb	/^class TodayController < ApplicationController$/;"	c
+TodayControllerTest	test/functional/today_controller_test.rb	/^class TodayControllerTest < ActionController::TestCase$/;"	c
+TodayHelper	app/helpers/today_helper.rb	/^module TodayHelper$/;"	m
+TodayHelperTest	test/unit/helpers/today_helper_test.rb	/^class TodayHelperTest < ActionView::TestCase$/;"	c
+User	app/models/user.rb	/^class User < ActiveRecord::Base$/;"	c
+UserTest	test/unit/user_test.rb	/^class UserTest < ActiveSupport::TestCase$/;"	c
+catch	app/views/today/test.rb	/^def catch$/;"	f	class:Test
+change	db/migrate/20130402004344_devise_create_users.rb	/^  def change$/;"	f	class:DeviseCreateUsers
+find	app/views/today/test.rb	/^	 def find$/;"	f	class:Test
+getFiles	app/controllers/say_controller.rb	/^  def getFiles$/;"	f	class:SayController
+goodbye	app/controllers/say_controller.rb	/^  def goodbye$/;"	f	class:SayController
+hello	app/controllers/say_controller.rb	/^  def hello$/;"	f	class:SayController
+index	app/controllers/today_controller.rb	/^  def index$/;"	f	class:TodayController
+test	app/views/today/test.js	/^function test(argument) {$/;"	f
+test_homepage	test/performance/browsing_test.rb	/^  def test_homepage$/;"	f	class:BrowsingTest

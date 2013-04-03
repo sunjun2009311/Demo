@@ -1,0 +1,17 @@
+<h1>Say#goodbye</h1>
+<h1>Goodbye!</h1>
+<p>it was nice have you here</p>
+<p>Say<a href="/say/hello">Hello</a></p>
+<p>
+<%=link_to "Hello",say_hello_path %>again
+</p>
+<h3>My test code</h3>
+1+2=<%=1+2 %><br>
+"caw"+"boy"--><%="caw"+"boy"%><br>
+one hour express :<%= 1.hour.from_now%><br>
+all file list:<%=@files%>
+<br>
+<% for file in @files%>
+	file name is :<%=file%><br>
+<% end %>
+<p>Find me in app/views/say/goodbye.html.erb</p>
